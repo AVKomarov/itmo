@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'gilroy';
+  src: url("../fonts/Gilroy-ExtraBold.otf");
+  font-style: normal; 
+ font-weight: normal; 
+}
+@font-face {
+  font-family: 'gilroy-light';
+  src: url("../fonts/Gilroy-Light.otf");
+  font-style: normal; 
+ font-weight: normal; 
+}
+h1{
+  font-family: 'gilroy';
+  color:red;
+}
+h2{
+  font-family: 'gilroy';
+}
+body{
+  font-family: 'gilroy-light';
+}
+#main-header{
+  border-bottom: 2px solid #000;
+  position: absolute;
+  width: 100%;
+  background: rgba(255,255,255,.7);
+  top: 0px;
+  height: 100px;
+  display:inline;
+}
+nav {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем отступы*/
+    padding-left: 0; /*убираем отступы*/
+    margin-top:25px; /*делаем отступ сверху*/
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    padding:10px; /*добавляем отступ*/
+    text-align: right;
+    font-size: 25px;
+    display: inline;
+    position: relative;
+  }
+  li {
+    display: inline;
+  }
+  .hi{
+    display: block;
+    
+  }
