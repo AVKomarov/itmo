@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div {transition: 1s; background: blue; width: 50px; color:white;}
+    div:hover {background:red;}
+</style>
+<body>
+    <div onclick = "" onmousedown="console.log('mousedown')">Привет</div>
+</body>
+<script type="text/javascript">
+let x = document.querySelector ('div');
+x.innerHTML="ПОКА";
+
+let counter = 0;
+x.onclick=function(){
+    if (counter%2==0){x.style.marginLeft="80%";}
+    else {x.style.marginLeft="0%";}
+    counter+=1;
+}
+
+</script>
+
+</html>
