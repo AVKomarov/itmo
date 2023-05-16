@@ -18,7 +18,11 @@ h1{
 .hi{
   font-family: 'gilroy';
   font-size: 30px;
-
+}
+.hi2{
+  font-family: 'gilroy';
+  font-size: 30px;
+  margin-left: 50%;
 }
 body{
   font-family: 'gilroy-light';
@@ -46,9 +50,6 @@ nav {
   }
   li {
     display: inline;
-  }
-  .hi{
-    display: block;   
   }
   .imag {
     display: inline;
@@ -139,4 +140,7 @@ background-size: cover;
 background-position: center; 
 background-image: url(../images/travel.svg);
 float:left;
+}
+form,input{
+  font-size: 30px;
 }
