@@ -60,7 +60,7 @@ nav {
     width: 473px;
     background-size: cover;
     background-position: center; 
-    background-image: url(../images/egormain.jpg);
+    background-image: url(../images/egormain_.svg);
     float:left; 
   }
 .cat {
@@ -68,7 +68,7 @@ nav {
     width: 25.5%;
     background-size: cover;
     background-position: center; 
-    background-image: url(../images/cat_accaunt.jpg);
+    background-image: url(../images/cat_accaunt_.svg);
     float:right; 
   }  
   /* p {
