@@ -13,9 +13,12 @@
 h1{
   font-family: 'gilroy';
   color:red;
+  font-size: 50px;
 }
-h2{
+.hi{
   font-family: 'gilroy';
+  font-size: 30px;
+
 }
 body{
   font-family: 'gilroy-light';
@@ -45,6 +48,95 @@ nav {
     display: inline;
   }
   .hi{
-    display: block;
-    
+    display: block;   
   }
+  .imag {
+    display: inline;
+  }
+  .imag {
+    /* display: inline-block; */
+    height: 494px;
+    width: 473px;
+    background-size: cover;
+    background-position: center; 
+    background-image: url(../images/egormain.jpg);
+    float:left; 
+  }
+.cat {
+    height: 338px;
+    width: 25.5%;
+    background-size: cover;
+    background-position: center; 
+    background-image: url(../images/cat_accaunt.jpg);
+    float:right; 
+  }  
+  /* p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+} */
+.one {
+  font-size: 30px;
+  width: 500px;
+  margin: left;
+  display: inline-block;
+  text-align: justify;
+  border:1px solid red;
+  padding:5px;
+}
+.otvet {
+  font-size: 30px;
+  margin: left;
+  display: inline-block;
+  border:1px solid red;
+}
+.vopros h2 {
+  margin-left: 45%;
+  margin-top: 130px;
+  font-family: 'gilroy';
+  font-size: 30px;
+}
+.arti {
+  font-size: 30px;
+  /* display: inline-block; */
+  /* text-align: justify; */
+  padding:5px;
+  width: 1005px;
+  margin: auto;
+}
+article {
+  max-width: 32%;
+  display: inline-block;
+border:1px solid red;
+margin: auto;
+display: inline-block;
+}
+.imag2 {
+  display: inline; 
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-position: center; 
+  background-image: url(../images/car.svg);
+  float:left; 
+}
+.imag3 {
+display: inline;
+height: 200px;
+width: 100%;
+background-size: cover;
+background-position: center; 
+background-image: url(../images/technology.svg);
+float:left; 
+}
+.imag4 {
+display: inline;
+height: 200px;
+width: 100%;
+background-size: cover;
+background-position: center; 
+background-image: url(../images/travel.svg);
+float:left;
+}
