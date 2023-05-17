@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../old/css/reset.css">
+    <link rel="stylesheet" href="../old/css/style.css">
+    <title>Отзывы</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Egor</h1>
+    </header>
+    <div class="my-navigation">
+        <ul>
+            <li><a href="./index.html">Главная</a></li>
+            <li><a href="./review.html">Отзывы</a></li>
+            <li><a href="./offer.html">Оферта</a></li>
+            <li><a href="./contact.html">Контакты</a></li>
+            <li><a href="./ask.html">ТОЛЬКО СПРОСИТЬ</a></li>
+        </ul>
+    </div> 
+
+            
+    <main>
+        <div>
+            <h2 style="font-size: 50px;">Заказать товар</h2>
+        </div>
+        <form action="mailto:order@egor.ru" method="post" enctype="text/plain">
+            <p><label for="name">Как к Вам обращаться?</label><br>
+            <input type="text" name="name" id="name" required value="Александр"></p>
+            <p><label for="phone">По какому телефону Вам перезвонить?</label><br>
+            <input type="text" name="phone" id="phone" required value="+7(950)8686868"></p>
+            <p><label for="time" required>Когда привезти товар?</label><br>
+            <input type="time" name="time" id="time" required value="18:00"></p>
+            <p><label for="cnt">Как хотите получить товар?</label><br>
+            <input type="radio" name="cnt" id="cnt" value="1">Самовывоз&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="cnt" id="cnt" value="2">Привезти на дом&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="cnt" id="cnt" value="more">Отправить по почте</p>
+            <p><input type="checkbox" name="children" value="*">Нужна ли поздравительная открытка?</p>
+            <p><input type="submit"></p>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
