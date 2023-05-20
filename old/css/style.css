@@ -10,6 +10,8 @@
   font-style: normal; 
  font-weight: normal; 
 }
+/* *{
+  border:1px solid red;} */
 body{
   background-color: RGB(249,249,249);
   font-family: 'gilroy-light', 'sans-serif';
@@ -23,12 +25,12 @@ body{
   margin:10px 0 30px 20px;
   /* padding:10px; */
 }
-.my-navigation{
+.my-navigation-flex{
   width: 100%;
   position: absolute;
   top: 10px;
 }
-.my-navigation ul{
+.my-navigation-flex ul{
   font-family: 'gilroy','sans-serif';
   list-style: none; /*убираем маркеры списка*/
   font-size: 3vw;
@@ -50,4 +52,61 @@ body{
 form,input{
   font-size: 30px;
   margin:10px 10px 10px 10px;
+}
+.wrapper{
+  padding:50px;
+  display: flex;
+  flex-direction: row;
+  /* align-self: center; */
+  justify-content: center;
+}
+.flex-item{
+  max-width: 300px;
+  min-width: 200px;
+  border:1px solid black;
+text-align: center;
+}
+.flex-item.content{
+  border:1px solid black;
+  text-align: center;
+  padding: 10px;
+  margin:5px;
+}
+.flex-item.content.zagolovok{
+font-family: 'gilroy';
+font-size: 24px;
+font-weight: 700;
+background-position: center center;
+}
+.footer{
+  background-color: black;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-row{
+  text-align: center;
+  color:white;
+}
+.board-messadge {
+  display: inline-block;
+border-radius: 16px;
+    background-color: #ee5639;
+    max-width: 500px;
+    border-color: transparent;
+    border-style: solid;
+}
+.hi-messadge {
+  display: inline-block;
+  color: #000000;
+  font-size: 30px;
+  font-family: 'Gilroy',Arial,sans-serif;
+  border-color: transparent;
+  border-style: solid;
+}
+h1{
+  font-size: 40px;
 }
