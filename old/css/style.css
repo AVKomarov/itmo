@@ -19,7 +19,7 @@ body{
 .header{
   font-family: 'gilroy';
   font-size:3.5vw;
-  color:red;
+  color:#ee5639;;
   display: block;
   border-bottom: 2px solid #000;
   margin:10px 0 30px 60px;
@@ -68,7 +68,7 @@ text-align: center;
 background-color: white;
 }
 .flex-item:hover{
-  border:3px solid red;
+  border:3px solid #ee5639;;
 }
 .flex-item.content{
   text-align: center;
@@ -88,7 +88,7 @@ font-weight: 700;
 background-position: center center;
 }
 .flex-item.content.push{
-  background-color: red;
+  background-color:#ee5639;;
 }
 .flex-item.content.push:focus{
   background-color:black;
@@ -108,20 +108,21 @@ background-position: center center;
   color:white;
 }
 .board-messadge {
-  margin-left: 60px;
-  display: inline-block;
+ margin: 10px auto;
+  display: block;
+  padding:15px;
 border-radius: 16px;
     background-color: #ee5639;
     max-width: 500px;
     border-color: transparent;
     border-style: solid;
-    float:left;
+
 }
 .hi-messadge {
-  margin-left: 60px;
-  display: inline-block;
+text-align: center;
+  display: block;
   color: #000000;
-  font-size: 30px;
+  font-size: 3.5vw;
   font-family: 'Gilroy',Arial,sans-serif;
   border-color: transparent;
   border-style: solid;
@@ -130,10 +131,11 @@ h1{
   font-size: 40px;
 }
 .img-egor{
-display: inline-block;
+margin:auto;
+display:block;
 background-image: url(../img/egormain_.svg);
-height: 494px;
-width: 473px;
+height: 394px;
+width: 373px;
 background-size: cover;
 background-position: center;
-}
+} 
