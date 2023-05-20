@@ -22,7 +22,7 @@ body{
   color:red;
   display: block;
   border-bottom: 2px solid #000;
-  margin:10px 0 30px 20px;
+  margin:10px 0 30px 60px;
   /* padding:10px; */
 }
 .my-navigation-flex{
@@ -59,24 +59,40 @@ form,input{
   flex-direction: row;
   /* align-self: center; */
   justify-content: center;
+  flex-wrap: wrap;
 }
 .flex-item{
-  max-width: 300px;
-  min-width: 200px;
-  border:1px solid black;
+  max-width: 310px;
+  border:3px solid white;
 text-align: center;
+background-color: white;
+}
+.flex-item:hover{
+  border:3px solid red;
 }
 .flex-item.content{
-  border:1px solid black;
   text-align: center;
   padding: 10px;
   margin:5px;
+}
+.flex-item.content:hover{
+  text-align: center;
+  padding: 10px;
+  margin:5px;
+  border:1px solid white;
 }
 .flex-item.content.zagolovok{
 font-family: 'gilroy';
 font-size: 24px;
 font-weight: 700;
 background-position: center center;
+}
+.flex-item.content.push{
+  background-color: red;
+}
+.flex-item.content.push:focus{
+  background-color:black;
+  transform: 1s;
 }
 .footer{
   background-color: black;
@@ -92,14 +108,17 @@ background-position: center center;
   color:white;
 }
 .board-messadge {
+  margin-left: 60px;
   display: inline-block;
 border-radius: 16px;
     background-color: #ee5639;
     max-width: 500px;
     border-color: transparent;
     border-style: solid;
+    float:left;
 }
 .hi-messadge {
+  margin-left: 60px;
   display: inline-block;
   color: #000000;
   font-size: 30px;
@@ -109,4 +128,12 @@ border-radius: 16px;
 }
 h1{
   font-size: 40px;
+}
+.img-egor{
+display: inline-block;
+background-image: url(../img/egormain_.svg);
+height: 494px;
+width: 473px;
+background-size: cover;
+background-position: center;
 }
