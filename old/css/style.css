@@ -70,12 +70,8 @@ background-color: white;
 .flex-item:hover{
   border:3px solid #ee5639;;
 }
+
 .flex-item.content{
-  text-align: center;
-  padding: 10px;
-  margin:5px;
-}
-.flex-item.content:hover{
   text-align: center;
   padding: 10px;
   margin:5px;
