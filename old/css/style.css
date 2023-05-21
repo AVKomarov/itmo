@@ -62,12 +62,13 @@ form,input{
   flex-wrap: wrap;
 }
 .flex-item{
-  max-width: 310px;
+  max-width: 330px;
   border:3px solid white;
 text-align: center;
 background-color: white;
 }
 .flex-item:hover{
+  transition:1s;
   border:3px solid #ee5639;;
 }
 
@@ -85,10 +86,13 @@ background-position: center center;
 }
 .flex-item.content.push{
   background-color:#ee5639;;
+  max-width: 105px;
+    margin: auto;
 }
-.flex-item.content.push:focus{
+.flex-item.content.push:hover{
   background-color:black;
   transform: 1s;
+  color: white;
 }
 .footer{
   background-color: black;
