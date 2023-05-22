@@ -21,7 +21,7 @@ body{
   font-size:3.5vw;
   color:#ee5639;;
   display: block;
-  border-bottom: 2px solid #000;
+  /* border-bottom: 2px solid #000; */
   margin:10px 0 30px 60px;
   /* padding:10px; */
 }
@@ -96,7 +96,7 @@ background-position: center center;
 }
 .footer{
   background-color: black;
-  height: 100px;
+  height: 180px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -139,3 +139,15 @@ width: 373px;
 background-size: cover;
 background-position: center;
 } 
+/* тут все из бутстрапа */
+.container-fluid{
+  background-color: white;
+  font-size: 25px;
+  font-family: 'gilroy';
+}
+.navbar-nav{
+  text-align: center;
+}
+.navbar-brand {
+  margin-top: 14.5px;
+}
