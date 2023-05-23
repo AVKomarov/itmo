@@ -151,3 +151,11 @@ background-position: center;
 .navbar-brand {
   margin-top: 14.5px;
 }
+.obertka{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.obertka main{
+  flex:1 1 auto;
+}
