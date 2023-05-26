@@ -10,7 +10,6 @@
     <title>Егор</title> 
 </head>
 <body>
-  <div class="obertka">
 <!-- <header class="header">
     <h1>Egor</h1>
 </header> -->
@@ -48,15 +47,19 @@
       </div>
     </div>
   </nav>
-<!-- <div class="my-navigation-flex">
-    <ul>
-        <li><a href="./index.html">Главная</a></li>
-        <li><a href="./review.html">Отзывы</a></li>
-        <li><a href="./offer.html">Оферта</a></li>
-        <li><a href="./contact.html">Контакты</a></li>
-        <li><a href="./ask.html">ТОЛЬКО СПРОСИТЬ</a></li>
-    </ul>
-</div>  -->
+<!-- Выпадающее меню начало-->
+  <ul class="navbar-nav menu"> 
+    <li class="spisok">
+    <a class="nav-link" href="#" data-trigger="dropdown">Личный кабинет</a>
+      <ul class="navbar-nav supermenu">
+        <li><a class="nav-link" href="./review.html">Мой аккаунт</a></li>
+        <li><a class="nav-link" href="./review.html">Профайл</a></li>
+        <li><a class="nav-link" href="./review.html">Параметры</a></li>
+        <li><a class="nav-link" href="./review.html">Выход</a></li>
+      </ul>
+    </li>
+  </ul>
+<!-- Выпадающее меню конец -->
 </nav>
 <main class="main">
     <div class="hi-messadge">
@@ -92,35 +95,8 @@
             <div class="flex-item content zagolovok">Путешествия</div>
             <div class="flex-item content">Подберем путешествие, которое порадует и в жизни, и в сториз</div> 
             <div class="flex-item content push">Подробнее</div>          
-
         </div>
     </div>
-<div class="conteiner1">
-    
-</div>
-<div class="conteiner2">
-    
-</div>
-<div class="conteiner3">
-    
-</div>    
-<div class="conteiner4">
-
-</div>
-<div class="conteiner5">
-
-</div>
-<div class="conteiner6">
-
-</div>
-<div class="conteiner7">
-
-</div>
-
-
-
-
-
 
 </main>
 <footer class="footer">
@@ -134,7 +110,8 @@
         <p>2023</p>
     </div>
 </footer>
-</div>
+<script src="../old/js/jquery-3.7.0.js"></script>
 <script src="../old/bootstrap/js/bootstrap.js"></script>
+<script charset="UTF-8" src="../old/js/index.js"></script>
 </body>
 </html>
