@@ -49,9 +49,14 @@ body{
   height: 100px;
   display:inline;
 } */
-form,input{
+input{
   font-size: 30px;
   margin:10px 10px 10px 10px;
+  border: 1px solid red;
+  font-size: 17px;
+  }
+form {
+  margin-left: 10px;
 }
 .wrapper{
   padding:50px;
@@ -126,7 +131,7 @@ text-align: center;
   font-family: 'Gilroy',Arial,sans-serif;
   border-color: transparent;
   border-style: solid;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 h1{
   font-size: 40px;
@@ -184,4 +189,27 @@ background-position: center;
 }
 .navbar-nav.supermenu.active{
   display: block;
+}
+button {
+  border: 1px solid red;
+  padding: 10px;
+  background-color: pink; 
+}
+
+/* Записная книжка */
+.notebook-table {
+  border: 1px solid red;
+  border-collapse: collapse;
+}
+.input-notebook {
+  border: 1px solid red;
+  font-size: 17px;
+}
+.notebook {
+  margin-left:10px;
+}
+th, td {
+  border: 1px solid red;
+  padding:10px;
+  text-align: center;
 }

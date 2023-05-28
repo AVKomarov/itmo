@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../old/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="../old/css/reset.css">
     <link rel="stylesheet" href="../old/css/style.css">
-    <title>Отзывы</title>
+    <title>Записная книжка</title>
 </head>
 <body>
   <div class="obertka">
@@ -60,9 +60,46 @@
 
             
     <main>
-     <div class="hi-messadge">
-        Почему выбирают нас?
-    </div>
+        <h1>Записная книжка</h1>
+        <div class="notebook">
+        
+          <label for="key">Ведите ФИО:</label>
+<input type="text" id="key" class="input-notebook" autofocus autocomplete="off">
+<label for="value">Введите номер телефона:</label>
+<input type="text" id="value" class="input-notebook" autocomplete="off">
+<button onclick="save()">Сохранить</button>
+<hr>
+<table class="notebook-table">
+	<thead>
+		<tr>
+			<th>#</th>
+			<th>ФИО</th>
+			<th>Номер телефона</th>
+			<th>Удалить</th>
+		</tr>
+	</thead>
+	<tbody id="output">
+		<tr>
+			<td colspan="4">Тут пусто</td>
+		</tr>
+	</tbody>
+</table>
+<button onclick="clearStorage()">Удалить все</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
     </main>
     <footer class="footer">
         <div class="footer-row">
@@ -77,5 +114,6 @@
     </footer>
   </div>
 <script src="../old/bootstrap/js/bootstrap.js"></script>
+<script charset="UTF-8" src="../old/js/notebook.js"></script>
 </body>
 </html>
