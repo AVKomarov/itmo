@@ -217,3 +217,57 @@ th, td {
 .videoblock {
 display: inline;
 }
+/* GRID Верстка */
+.grid-table-main {
+  display: grid;
+  padding: 15px;
+  background: white;
+  /* margin: 0px 100px; */
+  text-align: justify;
+}
+.grid-table-main img{
+  max-width: 150px;
+  min-width: 110px;
+}
+.image{
+  text-align: center;
+}
+.grid-table1 {
+display: grid;
+grid-template-columns: 75% 25%;
+margin-top: 10px;
+}
+.grid-table1:hover,
+.grid-table2:hover,
+.grid-table3:hover,
+.grid-table4:hover,
+.grid-table5:hover,
+.grid-table6:hover
+{
+  background-color: lightcyan;
+  }
+.grid-table2 {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  margin-top: 10px;
+} 
+.grid-table3 {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  margin-top: 10px;
+}
+.grid-table4 {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  margin-top: 10px;
+}
+.grid-table5 {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  margin-top: 10px;
+}
+.grid-table6 {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  margin-top: 10px;
+}
