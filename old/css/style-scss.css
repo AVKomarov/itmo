@@ -15,5 +15,9 @@
   background-color: orange;
   display: inline-block;
 }
+.block2:hover {
+  width: 100px;
+  height: 100px;
+}
 
 /*# sourceMappingURL=style-scss.css.map */
