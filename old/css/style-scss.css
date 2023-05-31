@@ -4,6 +4,9 @@
   background-color: orange;
   display: inline-block;
 }
+.block1:active {
+  background-color: #ffb733;
+}
 
 .block2 {
   width: 200px;

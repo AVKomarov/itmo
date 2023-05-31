@@ -1,5 +1,9 @@
 $blockbgcolor: orange;
- 
+@mixin blockcolor ($active) {
+    &:active {
+        background-color: $active;
+    }
+}
 
 
 
@@ -8,6 +12,7 @@ $blockbgcolor: orange;
     height: 200px;
     background-color: $blockbgcolor;
     display: inline-block;
+    @include blockcolor(lighten($blockbgcolor, 10%));
     }
 .block2 {
     width:200px;
