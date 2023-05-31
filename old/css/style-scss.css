@@ -1,0 +1,16 @@
+.block1 {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  display: inline-block;
+}
+
+.block2 {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  background-color: orange;
+  display: inline-block;
+}
+
+/*# sourceMappingURL=style-scss.css.map */
