@@ -1,0 +1,23 @@
+.block1 {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  display: inline-block;
+}
+.block1:active {
+  background-color: #ffb733;
+}
+
+.block2 {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  background-color: orange;
+  display: inline-block;
+}
+.block2:hover {
+  width: 100px;
+  height: 100px;
+}
+
+/*# sourceMappingURL=style-scss.css.map */

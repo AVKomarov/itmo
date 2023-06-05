@@ -1,0 +1,29 @@
+$blockbgcolor: orange;
+@mixin blockcolor ($active) {
+    &:active {
+        background-color: $active;
+    }
+}
+$squere:200px;
+@mixin gipercub ($hover) {
+    &:hover {
+        width:$hover;
+        height:$hover;
+    }
+}
+
+.block1 {
+    width: $squere;
+    height: $squere;
+    background-color: $blockbgcolor;
+    display: inline-block;
+    @include blockcolor(lighten($blockbgcolor, 10%));
+    }
+.block2 {
+    width:$squere;
+    height:$squere;
+    position:relative;
+    background-color: $blockbgcolor;
+    display: inline-block;
+    @include gipercub(100px);
+}

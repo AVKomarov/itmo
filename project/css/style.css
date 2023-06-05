@@ -1,0 +1,272 @@
+@font-face {
+  font-family: 'gilroy';
+  src: url("../fonts/Gilroy-ExtraBold.otf");
+  font-style: normal; 
+ font-weight: normal; 
+}
+@font-face {
+  font-family: 'gilroy-light';
+  src: url("../fonts/Gilroy-Light.otf");
+  font-style: normal; 
+ font-weight: normal; 
+}
+/* *{
+  border:1px solid red;} */
+body{
+  background-color: RGB(249,249,249);
+  font-family: 'gilroy-light', 'sans-serif';
+}
+.header{
+  font-family: 'gilroy';
+  font-size:3.5vw;
+  color:#ee5639;;
+  display: block;
+  /* border-bottom: 2px solid #000; */
+  margin:10px 0 30px 60px;
+  /* padding:10px; */
+}
+.my-navigation-flex{
+  width: 100%;
+  position: absolute;
+  top: 10px;
+}
+.my-navigation-flex ul{
+  font-family: 'gilroy','sans-serif';
+  list-style: none; /*убираем маркеры списка*/
+  font-size: 3vw;
+  display: flex;
+  padding:5px 5px 5px 5px;
+  align-items: center;
+  width:100%;
+  justify-content: flex-end;
+}
+/* .header{
+  border-bottom: 2px solid #000;
+  position: absolute;
+  width: 100%;
+  background: rgba(255,255,255,.7);
+  top: 0px;
+  height: 100px;
+  display:inline;
+} */
+input{
+  font-size: 30px;
+  margin:10px 10px 10px 10px;
+  border: 1px solid red;
+  font-size: 17px;
+  }
+form {
+  margin-left: 10px;
+}
+.wrapper{
+  padding:50px;
+  display: flex;
+  flex-direction: row;
+  /* align-self: center; */
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.flex-item{
+  max-width: 330px;
+  border:3px solid white;
+text-align: center;
+background-color: white;
+}
+.flex-item:hover{
+  transition:1s;
+  border:3px solid #ee5639;;
+}
+
+.flex-item.content{
+  text-align: center;
+  padding: 10px;
+  margin:5px;
+  border:1px solid white;
+}
+.flex-item.content.zagolovok{
+font-family: 'gilroy';
+font-size: 24px;
+font-weight: 700;
+background-position: center center;
+}
+.flex-item.content.push{
+  background-color:#ee5639;;
+  max-width: 105px;
+    margin: auto;
+}
+.flex-item.content.push:hover{
+  background-color:black;
+  transform: 1s;
+  color: white;
+}
+.footer{
+  background-color: black;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-row{
+  text-align: center;
+  color:white;
+}
+.board-messadge {
+ margin: 10px auto;
+  display: block;
+  padding:15px;
+border-radius: 16px;
+    background-color: #ee5639;
+    max-width: 500px;
+    border-color: transparent;
+    border-style: solid;
+}
+.hi-messadge {
+text-align: center;
+  display: block;
+  color: #000000;
+  font-size: 35px;
+  font-family: 'Gilroy',Arial,sans-serif;
+  border-color: transparent;
+  border-style: solid;
+  /* margin-top: 50px; */
+}
+h1{
+  font-size: 40px;
+}
+.img-egor{
+margin:auto;
+display:block;
+background-image: url(../img/egormain_.svg);
+height: 394px;
+width: 373px;
+background-size: cover;
+background-position: center;
+} 
+/* тут все из бутстрапа */
+.container-fluid{
+  background-color: white;
+  font-size: 25px;
+  font-family: 'gilroy';
+}
+.navbar-nav{
+  text-align: center;
+}
+.navbar-nav.menu{
+  text-align: center;
+  position: absolute;
+}
+.navbar-brand {
+  margin-top: 14.5px;
+}
+.obertka{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.obertka main{
+  flex:1 1 auto;
+}
+.navbar-nav.supermenu{
+  border: 1px solid #ee5639;
+  background:white;
+  display: none;
+}
+.spisok{
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: 'gilroy';
+  font-size: 24px;
+  font-weight: 700;
+}
+.spisok > ul > li {
+  font-family: 'gilroy-light';
+}
+.navbar-nav.supermenu a:hover{
+  background-color: RGB(249,249,249);
+}
+.navbar-nav.supermenu.active{
+  display: block;
+}
+button {
+  border: 1px solid red;
+  padding: 10px;
+  background-color: pink; 
+}
+
+/* Записная книжка */
+.notebook-table {
+  border: 1px solid red;
+  border-collapse: collapse;
+}
+.input-notebook {
+  border: 1px solid red;
+  font-size: 17px;
+}
+.notebook {
+  margin-left:10px;
+}
+th, td {
+  border: 1px solid red;
+  padding:10px;
+  text-align: center;
+}
+/* Конец записной книжки */
+.videoblock {
+display: inline;
+}
+/* GRID Верстка */
+.grid-table-main {
+  display: grid;
+  padding: 15px;
+  background: white;
+  /* margin: 0px 100px; */
+  text-align: justify;
+}
+.grid-table-main img{
+  max-width: 150px;
+  min-width: 110px;
+}
+.image{
+  text-align: center;
+}
+.grid-table1 {
+display: grid;
+grid-template-columns: 75% 25%;
+margin-top: 10px;
+}
+.grid-table1:hover,
+.grid-table2:hover,
+.grid-table3:hover,
+.grid-table4:hover,
+.grid-table5:hover,
+.grid-table6:hover
+{
+  background-color: lightcyan;
+  }
+.grid-table2 {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  margin-top: 10px;
+} 
+.grid-table3 {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  margin-top: 10px;
+}
+.grid-table4 {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  margin-top: 10px;
+}
+.grid-table5 {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  margin-top: 10px;
+}
+.grid-table6 {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  margin-top: 10px;
+}
