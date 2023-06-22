@@ -50,7 +50,7 @@
     </div>
   </nav>
 <!-- Выпадающее меню начало-->
-  <ul class="navbar-nav menu"> 
+  <!-- <ul class="navbar-nav menu"> 
     <li class="spisok">
     <a class="nav-link" href="#" data-trigger="dropdown">Личный кабинет</a>
       <ul class="navbar-nav supermenu">
@@ -60,7 +60,7 @@
         <li><a class="nav-link" href="./contact.html">Контакты</a></li>
       </ul>
     </li>
-  </ul>
+  </ul> -->
 <!-- Выпадающее меню конец -->
 </nav>
 <main class="main">
@@ -77,31 +77,137 @@
         Подберу несколько вариантов, поговорю с экспертами, выберу проверенных продавцов и закажу доставку.
         А еще избавлю от мук выбора и сэкономлю для вас несколько часов жизни.
     </div>
+<!-- Основной блок Начала -->
     <div class="wrapper">
         <div class="flex-item">
             <img src="../old/img/car.svg">
             <div class="flex-item content zagolovok">Автомобили</div>
             <div class="flex-item content">Подобор автомобиля по Вашим параметрам</div>
-            <div class="flex-item content push">Подробнее</div> 
-
+            <a href="#part1"><div class="flex-item content push1 btn btn-primary" data-bs-toggle="collapse">Подробнее</div></a>
         </div>
         <div class="flex-item">
             <img src="../old/img/technology.svg">
             <div class="flex-item content zagolovok">Техника и электроника</div> 
             <div class="flex-item content">Подбор подходящих вариантов из "моря" предожений на рынке</div> 
-            <div class="flex-item content push">Подробнее</div>    
+            <a href="#part1"><div class="flex-item content push2 btn btn-primary" data-bs-toggle="collapse">Подробнее</div></a>
 
         </div>
         <div class="flex-item">
             <img src="../old/img/travel.svg">
             <div class="flex-item content zagolovok">Путешествия</div>
             <div class="flex-item content">Подберем путешествие, которое порадует и в жизни, и в сториз</div> 
-            <div class="flex-item content push">Подробнее</div>          
+            <a href="#part1"><div class="flex-item content push3 btn btn-primary" data-bs-toggle="collapse" >Подробнее</div></a>
         </div>
     </div>
-
+    <!-- Основной блок Конец -->
+<!-- Тарифы Автомобили Начало-->
+<div class="collapse wrapper avto">
+  <div class="flex-item">
+      <div class="flex-item content zagolovok">Тариф S</div>
+      <div class="flex-item content">
+       <ul>
+        <li>Обсуждаем запрос на понятном языке</li>
+        <li>Подбираем подходящий вариант и считаем стоимость владения</li>
+       </ul>
+       <div class="price">
+        Цена: 1000₽
+       </div> 
+      </div>
+  </div>
+  <div class="flex-item">
+      <div class="flex-item content zagolovok">Тариф M</div> 
+      <div class="flex-item content"><ul>
+        <li>Обсуждаем запрос на понятном языке</li>
+        <li>Подбираем подходящий вариант и считаем стоимость владения</li>
+        <li>Узнаем про комплектации в наличии</li>
+        <li>Уточняем про скидки</li>
+       </ul>
+       <div class="price">
+        Цена: 5000₽
+       </div> 
+      </div>   
+  </div>
+  <div class="flex-item">
+      <div class="flex-item content zagolovok">Тариф L</div>
+      <div class="flex-item content"><ul>
+        <li>Обсуждаем запрос на понятном языке</li>
+        <li>Подбираем подходящий вариант и считаем стоимость владения</li>
+        <li>Узнаем про комплектации в наличии</li>
+        <li>Уточняем про скидки</li>
+        <li>Приглашаем эксперта при покупке автомобиля</li>
+       </ul>
+       <div class="price">
+        Цена: 15000₽
+       </div>
+      </div>        
+  </div>
+</div>
+<!-- Тарифы Автомобили Конец-->
+<!-- Тарифы Техника и электроника Начало-->
+<div class="wrapper tech">
+  <div class="flex-item">
+      <div class="flex-item content zagolovok">Тариф S</div>
+      <div class="flex-item content">
+        <ul>
+        <li>Формируем Вашу потребность</li>
+        <li>Предлагаем подходящие варианты</li>
+       </ul>
+       <div class="price">
+        Цена: 500₽
+       </div> 
+      </div>
+  </div>
+  <div class="flex-item">
+      <div class="flex-item content zagolovok">Тариф M</div> 
+      <div class="flex-item content">
+        <ul>
+        <li>Формируем Вашу потребность</li>
+        <li>Предлагаем подходящие варианты</li>
+        <li>Ищем лучшую цену</li>
+       </ul>
+       <div class="price">
+        Цена: 1000₽
+       </div> 
+      </div> 
+  </div>
+  <div class="flex-item">
+      <div class="flex-item content zagolovok">Тариф L</div>
+      <div class="flex-item content">
+        <ul>
+        <li>Формируем Вашу потребность</li>
+        <li>Предлагаем подходящие варианты</li>
+        <li>Ищем лучшую цену</li>
+        <li>Обсуждаем с независимым экспертом</li>
+        <li>Заказываем для Вас доставку</li>
+       </ul>
+       <div class="price">
+        Цена: 2500₽
+       </div> 
+      </div>       
+  </div>
+</div>
+<!-- Тарифы Техника и электроника Конец-->
+<!-- Тарифы Путешествия Начало-->
+<div class="wrapper travel">
+  <div class="flex-item">
+      <div class="flex-item content zagolovok">Тариф L</div>
+      <div class="flex-item content">
+        <ul>
+        <li>Куда поехать, и что там делать</li>
+        <li>COVID-ограничения и визы</li>
+        <li>Билеты и отели по хорошей цене</li>
+        <li>Предзаказ билетов и отелей</li>
+        <li>Памятка с полезной информацией</li>
+       </ul>
+       <div class="price">
+        Цена: 1000₽
+       </div> 
+      </div>
+  </div>
+</div>
+<!-- Тарифы Путешествия Конец-->
 </main>
-<footer class="footer">
+<footer class="footer" id="part1">
     <div class="footer-row">
         <p>Нажимая на кнопку, вы соглашаетесь с политикой обработки персональных данных, даете согласие на обработку персональных данных и принимаете пользовательское соглашение</p>
     </div>
@@ -115,5 +221,6 @@
 <script src="../old/js/jquery-3.7.0.js"></script>
 <script src="../old/bootstrap/js/bootstrap.js"></script>
 <script charset="UTF-8" src="../old/js/index.js"></script>
+<script charset="UTF-8" src="../old/js/mymy.js"></script>
 </body>
 </html>
