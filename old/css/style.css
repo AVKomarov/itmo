@@ -137,7 +137,7 @@ background-position: center center;
   display: block;
   padding:15px;
 border-radius: 16px;
-    background-color: #ee5639;
+    background-color: white;
     max-width: 500px;
     border-color: transparent;
     border-style: solid;
@@ -328,4 +328,18 @@ font-weight: 700;
 .wrapper.travel ul>li{
   list-style-type:disc;
   text-align: left;
+}
+
+.buttons-zakaz{
+  display: none;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.buttons-zakaz button {
+  min-width: 300px;
+  font-size: 24px;
+  font-family: 'gilroy';
 }
