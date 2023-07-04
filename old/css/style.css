@@ -343,3 +343,13 @@ font-weight: 700;
   font-size: 24px;
   font-family: 'gilroy';
 }
+.board-messadge.openformaphp{
+  margin: 10px auto;
+  display: none;
+  padding: 15px;
+  border-radius: 16px;
+  background-color: white;
+  max-width: 500px;
+  border-color: transparent;
+  border-style: solid;
+}

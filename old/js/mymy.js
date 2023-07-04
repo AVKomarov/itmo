@@ -1,7 +1,7 @@
 let a = document.querySelector('.flex-item.content.push1');
 let b = document.querySelector('.flex-item.content.push2');
 let c = document.querySelector('.flex-item.content.push3');
-
+let knopka = document.querySelector('.btn.btn-primary.openformaphp');
 // function buttonClick(){
 //     console.log('Кнопку прожали!!!');
 // }
@@ -9,6 +9,7 @@ let c = document.querySelector('.flex-item.content.push3');
 a.addEventListener("click",pricelist1);
 b.addEventListener("click",pricelist2);
 c.addEventListener("click",pricelist3);
+knopka.addEventListener("click",formaopenphp);
 
 function pricelist1(){
     elem = document.querySelector('.wrapper.avto');
@@ -37,3 +38,9 @@ document.querySelector('.wrapper.tech').classList.remove('vid');
 document.querySelector('.wrapper.avto').classList.remove('vid');
 // document.querySelector('.buttons-zakaz').classList.remove('vid');
 }
+function formaopenphp(){
+    elem = document.querySelector('.board-messadge.openformaphp');
+    elem.classList.toggle('vid');
+}
+//открытие php-формы выбора заказа
+// btn btn-primary
