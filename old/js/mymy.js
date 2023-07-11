@@ -1,7 +1,7 @@
 let a = document.querySelector('.flex-item.content.push1');
 let b = document.querySelector('.flex-item.content.push2');
 let c = document.querySelector('.flex-item.content.push3');
-let knopka = document.querySelector('.btn.btn-primary.openformaphp');
+// let knopka = document.querySelector('.btn.btn-primary.openformaphp');
 // function buttonClick(){
 //     console.log('Кнопку прожали!!!');
 // }
@@ -9,7 +9,7 @@ let knopka = document.querySelector('.btn.btn-primary.openformaphp');
 a.addEventListener("click",pricelist1);
 b.addEventListener("click",pricelist2);
 c.addEventListener("click",pricelist3);
-knopka.addEventListener("click",formaopenphp);
+// knopka.addEventListener("click",formaopenphp);
 
 function pricelist1(){
     elem = document.querySelector('.wrapper.avto');
